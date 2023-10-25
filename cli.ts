@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { parse } from 'https://deno.land/std@0.204.0/flags/mod.ts';
 import { getAppSpec, updateAppSpec } from './lib/digitalocean.ts';
 
